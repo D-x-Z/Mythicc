@@ -1,0 +1,161 @@
+lua:
+  Cooldown: 200
+  TriggerConditions:
+    - holding{m=WOODEN_HOE} true
+  Skills:
+    - setName{name=&7&oĐang thu hoạch lúa....\n&7&m━━━━━━━━━━} @Self
+    - delay 20
+    - setName{name=&aFarming\n&a&m━&7&m━━━━━━━━━} @Self
+
+    - delay 20
+    - setName{name=&aFarming\n&a&m━━&7&m━━━━━━━━} @Self
+
+    - delay 20
+    - setName{name=&aFarming\n&a&m━━━&7&m━━━━━━━} @Self
+
+    - delay 20
+    - setName{name=&aFarming\n&a&m━━━━&7&m━━━━━━} @Self
+
+    - delay 20
+    - setName{name=&aFarming\n&a&m━━━━━&7&m━━━━━} @Self
+
+    - delay 20
+    - setName{name=&aFarming\n&a&m━━━━━━&7&m━━━━} @Self
+
+    - delay 20
+    - setName{name=&aFarming\n&a&m━━━━━━━&7&m━━━} @Self
+
+    - delay 20
+    - setName{name=&aFarming\n&a&m━━━━━━━━&7&m━━} @Self
+
+    - delay 20
+    - setName{name=&aFarming\n&a&m━━━━━━━━━&7&m━} @Self
+
+    - delay 20
+    - setName{name="&eThu thập hoàn thành;subname="&a&m━━━━━━━━━━} @Self
+
+    - delay 20
+    - command{c="mi give MATERIAL LUA <trigger.name>"}
+    - command{c="rpg admin exp give <trigger.name> farming 10"}
+    - remove @self
+khoilua:
+  Cooldown: 200
+  TriggerConditions:
+    - holding{m=WOODEN_HOE} true
+  Skills:
+    - setName{name=&7&oĐang thu hoạch khối lúa....\n&7&m━━━━━━━━━━} @Self
+    - delay 20
+    - setName{name=&aFarming\n&a&m━&7&m━━━━━━━━━} @Self
+
+    - delay 20
+    - setName{name=&aFarming\n&a&m━━&7&m━━━━━━━━} @Self
+
+    - delay 20
+    - setName{name=&aFarming\n&a&m━━━&7&m━━━━━━━} @Self
+
+    - delay 20
+    - setName{name=&aFarming\n&a&m━━━━&7&m━━━━━━} @Self
+
+    - delay 20
+    - setName{name=&aFarming\n&a&m━━━━━&7&m━━━━━} @Self
+
+    - delay 20
+    - setName{name=&aFarming\n&a&m━━━━━━&7&m━━━━} @Self
+
+    - delay 20
+    - setName{name=&aFarming\n&a&m━━━━━━━&7&m━━━} @Self
+
+    - delay 20
+    - setName{name=&aFarming\n&a&m━━━━━━━━&7&m━━} @Self
+
+    - delay 20
+    - setName{name=&aFarming\n&a&m━━━━━━━━━&7&m━} @Self
+
+    - delay 20
+    - setName{name="&eThu thập hoàn thành;subname="&a&m━━━━━━━━━━} @Self
+
+    - delay 20
+    - command{c="mi give MATERIAL KHOILUA <trigger.name>"}
+    - command{c="rpg admin exp give <trigger.name> farming 10"}
+    - remove @self
+
+go:
+  Cooldown: 200
+  TriggerConditions:
+    - holding{m=WOODEN_AXE} true
+  Skills:
+    - setName{name=&7&oĐang chặt gỗ....\n&7&m━━━━━━━━━━} @Self
+    - delay 20
+    - setName{name=&aWoodCutting\n&a&m━&7&m━━━━━━━━━} @Self
+
+    - delay 20
+    - setName{name=&aWoodCutting\n&a&m━━&7&m━━━━━━━━} @Self
+
+    - delay 20
+    - setName{name=&aWoodCutting\n&a&m━━━&7&m━━━━━━━} @Self
+
+    - delay 20
+    - setName{name=&aWoodCutting\n&a&m━━━━&7&m━━━━━━} @Self
+
+    - delay 20
+    - setName{name=&aWoodCutting\n&a&m━━━━━&7&m━━━━━} @Self
+
+    - delay 20
+    - setName{name=&aWoodCutting\n&a&m━━━━━━&7&m━━━━} @Self
+
+    - delay 20
+    - setName{name=&aWoodCutting\n&a&m━━━━━━━&7&m━━━} @Self
+
+    - delay 20
+    - setName{name=&aWoodCutting\n&a&m━━━━━━━━&7&m━━} @Self
+
+    - delay 20
+    - setName{name=&aWoodCutting\n&a&m━━━━━━━━━&7&m━} @Self
+
+    - delay 20
+    - setName{name=&aWoodCutting\n&a&m━━━━━━━━━━} @Self
+
+    - delay 20
+    - command{c="mi give MATERIAL GO <trigger.name>"}
+    - command{c="rpg admin exp give <trigger.name> Woodcutting 3"}
+    - remove @self
+khoigo:
+  Cooldown: 200
+  TriggerConditions:
+    - holding{m=WOODEN_AXE} true
+  Skills:
+    - setname{name=&7&oĐang chặt gỗ....\n&7&m━━━━━━━━━━} @Self
+    - delay 20
+    - setName{name=&aWoodCutting\n&a&m━&7&m━━━━━━━━━} @Self
+
+    - delay 20
+    - setName{name=&aWoodCutting\n&a&m━━&7&m━━━━━━━━} @Self
+
+    - delay 20
+    - setName{name=&aWoodCutting\n&a&m━━━&7&m━━━━━━━} @Self
+
+    - delay 20
+    - setName{name=&aWoodCutting\n&a&m━━━━&7&m━━━━━━} @Self
+
+    - delay 20
+    - setName{name=&aWoodCutting\n&a&m━━━━━&7&m━━━━━} @Self
+
+    - delay 20
+    - setName{name=&aWoodCutting\n&a&m━━━━━━&7&m━━━━} @Self
+
+    - delay 20
+    - setName{name=&aWoodCutting\n&a&m━━━━━━━&7&m━━━} @Self
+
+    - delay 20
+    - setName{name=&aWoodCutting\n&a&m━━━━━━━━&7&m━━} @Self
+
+    - delay 20
+    - setName{name=&aWoodCutting\n&a&m━━━━━━━━━&7&m━} @Self
+
+    - delay 20
+    - setName{name=&aWoodCutting\n&a&m━━━━━━━━━━} @Self
+
+    - delay 20
+    - command{c="mi give MATERIAL KHOIGO <trigger.name>"}
+    - command{c="rpg admin exp give <trigger.name> Woodcutting 3"}
+    - remove @self

@@ -1,0 +1,165 @@
+lua:
+  Cooldown: 200
+  TriggerConditions:
+    - holding{m=WOODEN_HOE} true
+  Skills:
+    - potion{type=JUMP;lvl=128;duration=200} @Trigger
+    - potion{type=SLOW;lvl=127;duration=200} @Trigger
+    - sendtitle{title="&7&oĐang thu hoạch lúa...."";subtitle="&7&m━━━━━━━━━━";d=20} @Trigger
+    - delay 20
+    - sendtitle{title="&eRPGv2 | Farming";subtitle="&a&m━&7&m━━━━━━━━━";d=20} @Trigger
+
+    - delay 20
+    - sendtitle{title="&eRPGv2 | Farming";subtitle="&a&m━━&7&m━━━━━━━━";d=20} @Trigger
+
+    - delay 20
+    - sendtitle{title="&eRPGv2 | Farming";subtitle="&a&m━━━&7&m━━━━━━━";d=20} @Trigger
+
+    - delay 20
+    - sendtitle{title="&eRPGv2 | Farming";subtitle="&a&m━━━━&7&m━━━━━━";d=20} @Trigger
+
+    - delay 20
+    - sendtitle{title="&eRPGv2 | Farming";subtitle="&a&m━━━━━&7&m━━━━━";d=20} @Trigger
+
+    - delay 20
+    - sendtitle{title="&eRPGv2 | Farming";subtitle="&a&m━━━━━━&7&m━━━━";d=20} @Trigger
+
+    - delay 20
+    - sendtitle{title="&eRPGv2 | Farming";subtitle="&a&m━━━━━━━&7&m━━━";d=20} @Trigger
+
+    - delay 20
+    - sendtitle{title="&eRPGv2 | Farming";subtitle="&a&m━━━━━━━━&7&m━━";d=20} @Trigger
+
+    - delay 20
+    - sendtitle{title="&eRPGv2 | Farming";subtitle="&a&m━━━━━━━━━&7&m━";d=20} @Trigger
+
+    - delay 20
+    - sendtitle{title="&eThu thập hoàn thành;subtitle="&a&m━━━━━━━━━━";d=20} @Trigger
+
+    - command{c="mi give MATERIAL LUA <trigger.name>"}
+    - command{c="rpg admin exp give <trigger.name> farming 10"}
+    - remove @self
+khoilua:
+  Cooldown: 200
+  TriggerConditions:
+    - holding{m=WOODEN_HOE} true
+  Skills:
+    - potion{type=JUMP;lvl=128;duration=200} @Trigger
+    - potion{type=SLOW;lvl=127;duration=200} @Trigger
+    - sendtitle{title="&7&oĐang thu hoạch khối lúa....";subtitle="&7&m━━━━━━━━━━";d=20} @Trigger
+    - delay 20
+    - sendtitle{title="&eRPGv2 | Farming";subtitle="&a&m━&7&m━━━━━━━━━";d=20} @Trigger
+
+    - delay 20
+    - sendtitle{title="&eRPGv2 | Farming";subtitle="&a&m━━&7&m━━━━━━━━";d=20} @Trigger
+
+    - delay 20
+    - sendtitle{title="&eRPGv2 | Farming";subtitle="&a&m━━━&7&m━━━━━━━";d=20} @Trigger
+
+    - delay 20
+    - sendtitle{title="&eRPGv2 | Farming";subtitle="&a&m━━━━&7&m━━━━━━";d=20} @Trigger
+
+    - delay 20
+    - sendtitle{title="&eRPGv2 | Farming";subtitle="&a&m━━━━━&7&m━━━━━";d=20} @Trigger
+
+    - delay 20
+    - sendtitle{title="&eRPGv2 | Farming";subtitle="&a&m━━━━━━&7&m━━━━";d=20} @Trigger
+
+    - delay 20
+    - sendtitle{title="&eRPGv2 | Farming";subtitle="&a&m━━━━━━━&7&m━━━";d=20} @Trigger
+
+    - delay 20
+    - sendtitle{title="&eRPGv2 | Farming";subtitle="&a&m━━━━━━━━&7&m━━";d=20} @Trigger
+
+    - delay 20
+    - sendtitle{title="&eRPGv2 | Farming";subtitle="&a&m━━━━━━━━━&7&m━";d=20} @Trigger
+
+    - delay 20
+    - sendtitle{title="&eThu thập hoàn thành;subtitle="&a&m━━━━━━━━━━";d=20} @Trigger
+
+    - command{c="mi give MATERIAL KHOILUA <trigger.name>"}
+    - command{c="rpg admin exp give <trigger.name> farming 10"}
+    - remove @self
+
+go:
+  Cooldown: 200
+  TriggerConditions:
+    - holding{m=WOODEN_AXE} true
+  Skills:
+    - potion{type=JUMP;lvl=128;duration=200} @Trigger
+    - potion{type=SLOW;lvl=127;duration=200} @Trigger
+    - sendtitle{title="&7&oĐang chặt gỗ...."";d=20} @Trigger
+    - delay 20
+    - sendtitle{title="&eRPGv2 | WoodCutting";subtitle="&a&m━&7&m━━━━━━━━━";d=20} @Trigger
+
+    - delay 20
+    - sendtitle{title="&eRPGv2 | WoodCutting";subtitle="&a&m━━&7&m━━━━━━━━";d=20} @Trigger
+
+    - delay 20
+    - sendtitle{title="&eRPGv2 | WoodCutting";subtitle="&a&m━━━&7&m━━━━━━━";d=20} @Trigger
+
+    - delay 20
+    - sendtitle{title="&eRPGv2 | WoodCutting";subtitle="&a&m━━━━&7&m━━━━━━";d=20} @Trigger
+
+    - delay 20
+    - sendtitle{title="&eRPGv2 | WoodCutting";subtitle="&a&m━━━━━&7&m━━━━━";d=20} @Trigger
+
+    - delay 20
+    - sendtitle{title="&eRPGv2 | WoodCutting";subtitle="&a&m━━━━━━&7&m━━━━";d=20} @Trigger
+
+    - delay 20
+    - sendtitle{title="&eRPGv2 | WoodCutting";subtitle="&a&m━━━━━━━&7&m━━━";d=20} @Trigger
+
+    - delay 20
+    - sendtitle{title="&eRPGv2 | WoodCutting";subtitle="&a&m━━━━━━━━&7&m━━";d=20} @Trigger
+
+    - delay 20
+    - sendtitle{title="&eRPGv2 | WoodCutting";subtitle="&a&m━━━━━━━━━&7&m━";d=20} @Trigger
+
+    - delay 20
+    - sendtitle{title="&eRPGv2 | WoodCutting";subtitle="&a&m━━━━━━━━━━";d=20} @Trigger
+
+    - command{c="mi give MATERIAL GO <trigger.name>"}
+    - command{c="rpg admin exp give <trigger.name> Woodcutting 3"}
+    - remove @self
+khoigo:
+  Cooldown: 200
+  TriggerConditions:
+    - holding{m=WOODEN_AXE} true
+  Skills:
+    - potion{type=JUMP;lvl=128;duration=200} @Trigger
+    - potion{type=SLOW;lvl=127;duration=200} @Trigger
+    - sendtitle{title="&7&oĐang chặt gỗ...."";d=20} @Trigger
+    - delay 20
+    - sendtitle{title="&eRPGv2 | WoodCutting";subtitle="&a&m━&7&m━━━━━━━━━";d=20} @Trigger
+
+    - delay 20
+    - sendtitle{title="&eRPGv2 | WoodCutting";subtitle="&a&m━━&7&m━━━━━━━━";d=20} @Trigger
+
+    - delay 20
+    - sendtitle{title="&eRPGv2 | WoodCutting";subtitle="&a&m━━━&7&m━━━━━━━";d=20} @Trigger
+
+    - delay 20
+    - sendtitle{title="&eRPGv2 | WoodCutting";subtitle="&a&m━━━━&7&m━━━━━━";d=20} @Trigger
+
+    - delay 20
+    - sendtitle{title="&eRPGv2 | WoodCutting";subtitle="&a&m━━━━━&7&m━━━━━";d=20} @Trigger
+
+    - delay 20
+    - sendtitle{title="&eRPGv2 | WoodCutting";subtitle="&a&m━━━━━━&7&m━━━━";d=20} @Trigger
+
+    - delay 20
+    - sendtitle{title="&eRPGv2 | WoodCutting";subtitle="&a&m━━━━━━━&7&m━━━";d=20} @Trigger
+
+    - delay 20
+    - sendtitle{title="&eRPGv2 | WoodCutting";subtitle="&a&m━━━━━━━━&7&m━━";d=20} @Trigger
+
+    - delay 20
+    - sendtitle{title="&eRPGv2 | WoodCutting";subtitle="&a&m━━━━━━━━━&7&m━";d=20} @Trigger
+
+    - delay 20
+    - sendtitle{title="&eRPGv2 | WoodCutting";subtitle="&a&m━━━━━━━━━━";d=20} @Trigger
+
+    - command{c="mi give MATERIAL KHOIGO <trigger.name>"}
+    - command{c="rpg admin exp give <trigger.name> Woodcutting 3"}
+    - remove @self

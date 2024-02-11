@@ -1,0 +1,54 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+
+lua:
+  MobType: baby_zombie
+  Health: 1000000000
+  Disguise: 'Falling_Block HAY_BLOCK setCustomName "&bChuột Trái &7▶&a Nguyên Liệu Giáp\n&bChuột Phải &7▶&a Nguyên Liệu Vũ Khí"'
+  Options:
+    AlwaysShowName: true
+    DigOutOfGround: true
+    Despawn: persistent
+    Glowing: true
+    Interactable: false
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventVanillaDamage: true
+    NoAI: true
+  Skills:
+    - skill{s=lua;sync=true} ~onInteract >0 1
+    - skill{s=khoilua;sync=true} ~onDamaged 1
+
+go:
+  MobType: baby_zombie
+  Health: 1000000000
+  Disguise: 'Falling_Block OAK_LOG setCustomName "&bChuột Trái &7▶&a Nguyên Liệu Giáp\n&bChuột Phải &7▶&a Nguyên Liệu Vũ Khí"'
+  Options:
+    AlwaysShowName: true
+    DigOutOfGround: true
+    Despawn: persistent
+    Glowing: true
+    Interactable: false
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventVanillaDamage: true
+    NoAI: true
+  AIGoalSelectors:
+    - 0 clear
+  AITargetSelectors:
+    - 0 clear
+    - 1 attacker
+  Skills:
+    - skill{s=go;sync=true} ~onInteract >0 1
+    - skill{s=khoigo;sync=true} ~onDamaged 1
